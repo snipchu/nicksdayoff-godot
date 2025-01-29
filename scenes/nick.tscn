@@ -182,7 +182,7 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_86ylh"]
-radius = 27.0
+radius = 30.0
 height = 114.0
 
 [node name="nick" type="CharacterBody2D"]
@@ -190,8 +190,7 @@ script = ExtResource("1_m7gdx")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_52k61")
-animation = &"right"
-frame_progress = 0.157672
+animation = &"idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, 3)

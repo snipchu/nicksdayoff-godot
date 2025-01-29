@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://cnmxfl1e50a1f"]
-
-[ext_resource type="Script" path="res://dialog.gd" id="2_qnofn"]
-
-[node name="dialog" type="Sprite2D"]
-position = Vector2(512, 255)
-script = ExtResource("2_qnofn")
